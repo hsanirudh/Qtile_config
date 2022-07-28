@@ -4,10 +4,9 @@
 
 ## Imports ##
 import os
-import socket
 import subprocess
 from libqtile import qtile
-from libqtile.config import Click, Drag, Group, KeyChord, Key, Match, Screen
+from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.command import lazy
 from libqtile import layout, bar, widget, hook
 from libqtile.lazy import lazy
@@ -63,7 +62,7 @@ keys = [
 ]
 
 ## GroupBox ##
-group_names = [("" , {'layout': 'monadtall'}),
+group_names = [("", {'layout': 'monadtall'}),
                ("", {'layout': 'monadtall'}),
                ("", {'layout': 'monadtall'}),
                ("", {'layout': 'monadtall'}),
@@ -87,7 +86,7 @@ def reboot_now():
   qtile.cmd_spawn('reboot')
 # Open_htop
 def open_htop():
-  qtile.cmd_spawn(terminal + ' -e htop')
+  qtile.cmd_spawn(myTerminal + ' -e htop')
 # Speedtest.net
 def speedtest():
   qtile.cmd_spawn(browser + 'www.speedtest.net')
