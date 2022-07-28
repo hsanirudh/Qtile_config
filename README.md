@@ -1,4 +1,6 @@
 # QTILE CONFIG
+## How to Install
+### Place qtile in ~/.config
 ## Screenshots
 <p align="center">
    <a><img src="https://raw.githubusercontent.com/hsanirudh/Qtile_config/main/src/1.png" alt="1" width=600px></a>
@@ -23,4 +25,3 @@
    <br>
    <br>
 </p>
-
