@@ -353,4 +353,4 @@ def autostart():
     home = os.path.expanduser('~/.config/qtile/autostart.sh')
     subprocess.call([home])
 
-wmname = "QTILE" 
+wmname = "LG3D" 
